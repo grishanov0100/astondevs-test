@@ -140,5 +140,3 @@ test('Проверка кнопки в хедере карьера', async ({ pa
   await expect.soft(page.getByRole('link', { name: 'Перейти в Telegram' })).toBeVisible();
   await expect.soft(page.getByRole('link', { name: 'Перейти в Telegram' })).toHaveAttribute('href','https://t.me/astoonntrainee');
 });
-
-
